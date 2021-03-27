@@ -1,0 +1,46 @@
+
+.header{
+    background-position: center;
+    background-size: contain;
+    .site-logo-image{
+        width: 55%;
+        @include mq(m){
+            width: 40%;
+        }
+    }
+}
+
+// .item-label{
+//     &:nth-last-child{
+//         border-right: solid 5px #f3eee9;
+//     }
+// }
+
+.caption-wrap{
+    .item-label{
+        text-align: center;
+    }
+}
+
+.navi-in{
+    .has-icon{
+        right: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+// .ect-entry-card{
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-right: -30px;
+//     .entry-card-wrap{
+//         flex: calc(100% - 30px) /2;
+//         margin-right: 30px;
+//         .entry-card-thumb{
+//             width: 100%;
+//         }
+//         .entry-card-thumb{
+//             position: static;
+//         }
+//     }
+// }
