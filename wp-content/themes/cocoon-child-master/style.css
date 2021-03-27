@@ -72,6 +72,75 @@ Version:    1.1.2
   font-weight: bold;
 }
 
+.entry-card-content {
+  margin-left: 0;
+}
+
+.entry-card-content .entry-card-title {
+  margin-left: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 599px) {
+  .entry-card-content .entry-card-title {
+    font-size: 16px;
+  }
+}
+
+.ect-entry-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+@media screen and (max-width: 599px) {
+  .ect-entry-card {
+    margin-right: 0;
+    display: block;
+  }
+}
+
+.ect-entry-card .entry-card-wrap {
+  width: calc((100% - 60px)/2);
+  margin-right: 30px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 599px) {
+  .ect-entry-card .entry-card-wrap {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.ect-entry-card .entry-card-wrap .entry-card-thumb {
+  width: 100%;
+}
+
+.ect-entry-card .entry-card-wrap .entry-card-thumb {
+  position: static;
+}
+
+.eye-catch {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.eye-catch .eye-catch-image {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 /*====================================================================
                     index
 ====================================================================*/
@@ -103,7 +172,8 @@ body {
   border-radius: 4px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding: 3% 3.9% 2.5%;
+  padding: 2% 3.5% 2.4%;
+  margin-bottom: 5px;
 }
 
 .widget-sidebar ul li a:hover {

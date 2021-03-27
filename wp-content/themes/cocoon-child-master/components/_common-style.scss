@@ -29,19 +29,52 @@
         font-weight: bold;
     }
 }
+.entry-card-content{
+    margin-left: 0;
+    .entry-card-title{
+        margin-left: 0;
+        left: 0;
+        @include mq(sm){
+            font-size: 16px;
+        }
+    }
+}
+.ect-entry-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    @include mq(sm){
+        margin-right: 0;
+        display: block;
+    }
+    .entry-card-wrap{
+        width:calc((100% - 60px)/2);
+        margin-right: 30px;
+        padding: 15px;
+        @include mq(sm){
+            width:  100%;
+            margin-right: 0;
+        }
+        .entry-card-thumb{
+            width: 100%;
+        }
+        .entry-card-thumb{
+            position: static;
+        }
+    }
+}
 
-// .ect-entry-card{
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-right: -30px;
-//     .entry-card-wrap{
-//         flex: calc(100% - 30px) /2;
-//         margin-right: 30px;
-//         .entry-card-thumb{
-//             width: 100%;
-//         }
-//         .entry-card-thumb{
-//             position: static;
-//         }
-//     }
-// }
+.eye-catch{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    .eye-catch-image{
+        content: "";
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
