@@ -22,8 +22,11 @@ if ( is_active_sidebar( 'sidebar' ) || is_active_sidebar( 'sidebar-scroll' ) ) :
     get_template_part_with_ad_format(get_ad_pos_sidebar_bottom_format(), 'ad-sidebar-bottom', is_ad_pos_sidebar_bottom_label_visible());
   }; ?>
 
-  
-  <?php
+<aside class="widget widget-sidebar widget-sidebar-standard ">
+  <h3 class="widget-sidebar-title widget-title">おすすめの記事</h3>
+</aside>
+
+<?php
   ////////////////////////////
   //サイドバー追従領域
   ////////////////////////////
@@ -32,6 +35,5 @@ if ( is_active_sidebar( 'sidebar' ) || is_active_sidebar( 'sidebar-scroll' ) ) :
     <?php dynamic_sidebar( 'sidebar-scroll' ); ?>
   </div>
   <?php endif; ?>
-
 </div>
 <?php endif; ?>

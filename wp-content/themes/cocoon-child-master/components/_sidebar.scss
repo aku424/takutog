@@ -17,3 +17,43 @@
         }
     }
 }
+.nwa{
+    .author-box{
+        border: none;
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .13);
+        .author-thumb{
+            width: 80%;
+            img{
+                border-radius: 50%;
+            }
+        }
+        .author-name{
+            a{
+                color: #44270B;
+                text-decoration: none;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+        }
+    } 
+} 
+
+.widget_popular_entries{
+    .popular-entry-cards{
+        a{
+            border: none !important;
+            box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.13);
+            border-radius: 4px;
+            transition: all 0.3s ease-in-out;
+            padding: 2% 3.5% 2.4%;
+            margin-bottom: 5px;
+            &:hover{
+                background-color: #fcf8f5;
+                box-shadow: none;
+                transform: translateY(2px);
+                
+            }
+        }
+    }
+}
