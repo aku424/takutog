@@ -6,7 +6,7 @@
                 border-radius: 4px;
                 transition: all 0.3s ease-in-out;
                 padding: 2% 3.5% 2.4%;
-                margin-bottom: 5px;
+                margin-bottom: 10px;
                 &:hover{
                     background-color: #fcf8f5;
                     box-shadow: none;
@@ -48,6 +48,41 @@
             transition: all 0.3s ease-in-out;
             padding: 2% 3.5% 2.4%;
             margin-bottom: 5px;
+            &:hover{
+                background-color: #fcf8f5;
+                box-shadow: none;
+                transform: translateY(2px);
+                
+            }
+        }
+    }
+}
+// .new_entries-2{
+//     .new-entry-cards{
+//         .new-entry-card-link{
+//             box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.13);
+//             border-radius: 4px;
+//             transition: all 0.3s ease-in-out;
+//             padding: 2% 3.5% 2.4%;
+//             margin-bottom: 5px;
+//             &:hover{
+//                 background-color: #fcf8f5;
+//                 box-shadow: none;
+//                 transform: translateY(2px);
+                
+//             }
+//         }
+//     }
+// }
+.widget-sidebar{
+    .widget-entry-cards{
+        .widget-entry-card-link{
+            border: none;
+            box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.13);
+            border-radius: 4px;
+            transition: all 0.3s ease-in-out;
+            padding: 2% 3.5% 2.4%;
+            margin-bottom: 10px;
             &:hover{
                 background-color: #fcf8f5;
                 box-shadow: none;

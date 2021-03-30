@@ -214,6 +214,60 @@ Version:    1.1.2
   font-weight: bold;
 }
 
+.related-list {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: start !important;
+  margin-right: -10px;
+}
+
+.related-list .related-entry-card-wrap {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: calc((100% - 30px)/3);
+  margin-right: 10px;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.13);
+          box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 2% 3.5% 2.4%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.related-list .related-entry-card-wrap:hover {
+  background-color: #fcf8f5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.pager-post-navi {
+  margin-right: -10px;
+}
+
+.pager-post-navi a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.13);
+          box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 2% 3.5% 2.4%;
+  margin-right: 10px;
+}
+
+.pager-post-navi a:hover {
+  background-color: #fcf8f5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
 /*====================================================================
                     index
 ====================================================================*/
@@ -223,10 +277,6 @@ Version:    1.1.2
 /*====================================================================
                     works
 ====================================================================*/
-body {
-  height: 30px;
-}
-
 /*====================================================================
                     blog
 ====================================================================*/
@@ -246,7 +296,7 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 2% 3.5% 2.4%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .widget-sidebar ul li a:hover {
@@ -292,6 +342,25 @@ body {
 }
 
 .widget_popular_entries .popular-entry-cards a:hover {
+  background-color: #fcf8f5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.widget-sidebar .widget-entry-cards .widget-entry-card-link {
+  border: none;
+  -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.13);
+          box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.13);
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 2% 3.5% 2.4%;
+  margin-bottom: 10px;
+}
+
+.widget-sidebar .widget-entry-cards .widget-entry-card-link:hover {
   background-color: #fcf8f5;
   -webkit-box-shadow: none;
           box-shadow: none;
