@@ -174,3 +174,30 @@
 //     background-color: rgba(252, 248, 245, .7);
 //     color: #333;
 // }
+.prev-post-title,.next-post-title {
+    font-weight: bold;
+}
+.comment-form{
+    .comment-btn{
+        border: none;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.13);
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            background-color: rgb(252, 248, 245);
+            box-shadow: none;
+            transform: translateY(2px);
+        }
+    }
+}
+.entry-content{
+    .toc{
+        border: none;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.13);
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+        
+    }
+}
