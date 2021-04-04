@@ -201,3 +201,23 @@
         
     }
 }
+@include mq(m){
+    .menu-item-has-children{
+        .sub-menu{
+            width: 100%;
+        }
+        .open{
+            display: block !important;
+            .menu-item-object-category{
+                background-color: #F0E6DD;
+            }
+        }
+    }
+    .navi-in{
+        ul{
+            li{
+                position: static;
+            }
+        }
+    }
+}

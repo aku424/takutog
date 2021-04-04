@@ -302,6 +302,21 @@ Version:    1.1.2
   transition: all 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 834px) {
+  .menu-item-has-children .sub-menu {
+    width: 100%;
+  }
+  .menu-item-has-children .open {
+    display: block !important;
+  }
+  .menu-item-has-children .open .menu-item-object-category {
+    background-color: #F0E6DD;
+  }
+  .navi-in ul li {
+    position: static;
+  }
+}
+
 /*====================================================================
                     index
 ====================================================================*/
